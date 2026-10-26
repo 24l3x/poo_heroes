@@ -22,6 +22,10 @@ class Heroe(Personaje):
             return True
         return False
 
+class Ayudante(personaje, ABC):
+    def __init__(self, nombre: str, costoPista: int):
+        super().__init__(nombre)
+        self._costo = costoPista: #ejemplo: 10 
 
 class Batman(Heroe):
     def __init__(self):
