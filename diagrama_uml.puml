@@ -22,7 +22,7 @@ abstract class Personaje <<abstract>> {
   + getNombre(): String
 }
 
-class Heroe {
+abstract class Heroe <<abstract>> {
   # saldo: Integer
   # intentosRestantes: Integer
   + consultarSaldo(): Integer
@@ -51,7 +51,7 @@ class GreenGoblin {
   + complicarReto(r: Reto): void
 }
 
-class Ayudante {
+abstract class Ayudante <<abstract>> {
   # costoPista: int
   + darPista(m: Mision): String
 }
