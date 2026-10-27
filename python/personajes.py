@@ -23,6 +23,7 @@ class Heroe(Personaje):
         return False
 
 
+
 class Batman(Heroe):
     def __init__(self):
         super().__init__("Batman", 100, 3)
